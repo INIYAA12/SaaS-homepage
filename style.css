@@ -246,3 +246,44 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.price span {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.plan-features {
+  list-style: none;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.plan-features li {
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+.price-card button {
+  margin-top: 20px;
+  width: 100%;
+}
+.price-card .nav-btn {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.price-card:hover .nav-btn {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(99,102,241,0.4);
+}
+.price-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+}
+.price-card {
+  cursor: pointer;
+}
